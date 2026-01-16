@@ -70,8 +70,14 @@ position: relative;
    margin-left: 25px;
    border-radius: 10px;
    border: none;
+   display: flex;
+   gap: 30px;
 }
-
+.icon{
+    margin-top: 35px;
+    margin-left: 10px;
+    font-size: 25px;
+}
 
 .about{
     margin-left: 80px;
@@ -153,6 +159,42 @@ position: relative;
 }
 .contain p{
     font-size:25px ;
+}
+.offer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 80px;
+    margin-right: 100px;
+    gap: 8px;
+    width: 1400px;
+}
+.offer-info{
+    width: 350px;
+    height: 300px;
+    padding: 50px 30px 50px 30px;
+    background-color: rgba(255, 255, 255, 0.304);
+}
+.offer-info h2{
+    font-size: 30px;
+}
+.offer-info p{
+    font-size: 18px;
+}
+.info-icon{
+    padding: 20px;
+    background-color: black;
+    color: white;
+    font-size:35px;
+    font-weight: 100px;
+    border-radius: 100px;
+    width: 45px;
+    height: 45px;
+    
+}
+.btn-4{
+    background-color:rgba(255, 255, 255, 0.304) ;
+    border: none;
+    font-size: 16px;
 }
 @media screen and (max-width: 600px) {
     .banner-contain h1{
