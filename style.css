@@ -102,6 +102,7 @@ position: relative;
 }
 .about-img{
    margin-right: -250px;
+   position:relative;
 }
 .expr{
     display:flex;
@@ -124,7 +125,48 @@ position: relative;
 .btn-3:hover{
     border: 2px solid black;
 }
+.card-2{
+    display: flex;
+    gap: 20px;
+    border: 1px solid black;
+    width: 250px;
+    height: 150px;
+    position: absolute;
+    margin-top: -130px;
+    margin-left: 380px;
+    background-color: white;
+}
+.card-2-img{
+    margin-top: 75px;
+    width: 50px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: lightgray;
+  
+}
+.card-2-contain{
+    margin-top: 25px;
+    text-align: justify;
+}
 @media only screen and (max-width: 567px) {
+    .about-container{
+ display: flex;
+ flex-direction: column;
+ margin-left: 0px;
+ margin-top: 0px;
+ text-align: justify;
+}
+.about-container .contain, h2{
+  font-size: 30px;
+}
+.about-img{
+    width: 500px;
+    height: 500px;
+}
+.card-2{
+    margin-left: 220px;
+}
+  
 .about{
         text-align: center;
         width: 560px;
@@ -148,11 +190,7 @@ margin-top: -60px;
    width: fit-content;
    margin-right: 0px;
 }
-.bh-1{
-    font-weight: 100px;
-    font-size: 50px;
-    
-}
+
 .header{
 display: flex;
 flex-direction: column;
