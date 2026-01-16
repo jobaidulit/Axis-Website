@@ -43,6 +43,9 @@ position: relative;
   
    margin-right: 0px;
 }
+.banner-contain h1{
+    font-size: 70px;
+}
 .btn-1{
     background-color: rgba(0, 0, 0, 0.805);
     color: white;
@@ -68,10 +71,7 @@ position: relative;
    border-radius: 10px;
    border: none;
 }
-.bh-1{
-    font-size: 70px;
-    font-weight: 300px;
-}
+
 
 .about{
     margin-left: 80px;
@@ -148,7 +148,16 @@ position: relative;
     margin-top: 25px;
     text-align: justify;
 }
-@media only screen and (max-width: 567px) {
+.contain h1{
+    font-size: 50px;
+}
+.contain p{
+    font-size:25px ;
+}
+@media screen and (max-width: 600px) {
+    .banner-contain h1{
+    font-size: 40px;
+}
     .about-container{
  display: flex;
  flex-direction: column;
@@ -174,9 +183,15 @@ margin-left: 0px;
 margin-right: 0px;
 margin-top: -60px;
     }
+    .about h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 200;
+    text-align: left;
+}
     .about p{
-        text-align: center;
-        margin-left: 10px;
+        text-align: left;
+        margin-left: 0px;
         margin-right: 10px;
     }
   .banner{
@@ -220,7 +235,12 @@ height: 300px;
    border-radius: 10px;
    border: none;
 }
-
-
+.contain h1{
+    font-size: 20px;
+    text-align: left;
+}
+.contain p{
+    font-size:18px ;
+}
 
 }
